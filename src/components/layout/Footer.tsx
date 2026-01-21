@@ -74,16 +74,18 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
                 <span className="text-background/70 text-sm font-sans">
-                  Tamil Nadu, India
+                Mannur po , palakkad , 678642,Kerala, India 
+
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-accent flex-shrink-0" />
                 <a
-                  href="tel:+919876543210"
-                  className="text-background/70 hover:text-accent transition-colors text-sm font-sans"
+                  href="tel:+919645324382"
+               className="text-background/70 hover:text-accent transition-colors text-sm font-sans"
                 >
-                  +91 98765 43210
+                 +91 9645324382
+
                 </a>
               </li>
               <li className="flex items-center gap-3">

@@ -88,8 +88,8 @@ const About = () => {
                
               </div>
             </div>
-            <div className="bg-muted rounded-lg aspect-[4/3] flex items-center justify-center">
-              <span className="text-muted-foreground font-sans">Company Image</span>
+            <div className="bg-muted rounded-lg aspect-[3/2] flex items-center justify-center ">
+              <span className="text-muted-foreground font-sans"><img src="/about-cross.jpg" alt="" className="rounded-[20px]" /></span>
             </div>
           </div>
         </div>
