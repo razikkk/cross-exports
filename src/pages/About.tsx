@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import WhatWeDo from "@/components/about/whatwedo";
+import WhatWeDo from "@/components/about/WhatWeDo";
 
 const About = () => {
   const values = [
