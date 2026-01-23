@@ -30,8 +30,8 @@ const Header = () => {
     src="/cross.png"
     alt="Company Logo"
     className="
-      h-[250px] w-[250px]
-      md:h-[320px] md:w-[320px]
+      h-[270px] w-[270px]
+      md:h-[360px] md:w-[360px]
       object-contain
 
       /* MOBILE position */

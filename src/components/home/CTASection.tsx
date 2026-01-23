@@ -21,13 +21,13 @@ const CTASection = () => {
               Get in Touch
               <ArrowRight size={18} />
             </Link>
-            <a
+            {/* <a
               href="tel:+919876543210"
               className="border border-primary-foreground/30 text-primary-foreground px-6 py-3 rounded-md font-sans font-medium transition-all duration-300 hover:bg-primary-foreground/10 inline-flex items-center justify-center gap-2"
             >
               <Phone size={18} />
               Call Us Now
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

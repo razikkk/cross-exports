@@ -1,8 +1,8 @@
 import cocoPeatImg from "@/assets/product-coco-peat.jpg";
-import coirFibreImg from "@/assets/product-coir-fibre.jpg";
-import growBagsImg from "@/assets/product-grow-bags.jpg";
+import coirFibreImg from "@/assets/coir-fibre.webp";
+import growBagsImg from "@/assets/coir-grow-bag.webp";
 import spicesImg from "@/assets/product-spices.jpg";
-import uradDalImg from "@/assets/product-urad-dal.jpg";
+import uradDalImg from "@/assets/urad-dal.jpg";
 
 export interface ProductSpec {
   label: string;
@@ -24,7 +24,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "coco-peat",
-    name: "Coco Peat / Coir Pith",
+    name: "Coco Pith / Coir Peat",
     shortDescription: "Premium quality coco peat for superior plant growth and soil conditioning.",
     fullDescription: "Coco peat (coir pith) is a natural growing medium known for strong water retention, aeration, and root support. It is suitable for commercial horticulture and home gardening applications.",
     availableFormats: "5kg blocks and 650gm briquettes",
@@ -46,7 +46,7 @@ export const products: Product[] = [
   },
   {
     id: "coir-grow-bags",
-    name: "Coir Grow Bags",
+    name: "Grow Bags",
     shortDescription: "Ready-to-use grow bags for professional and home gardening solutions.",
     fullDescription: "Coir grow bags provide a clean and efficient growing solution for greenhouse farming and commercial crop production. They support strong root development and consistent moisture management.",
     keySpecs: [

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, X } from "lucide-react";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -71,13 +73,28 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-medium mb-4">Contact Us</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
-                <span className="text-background/70 text-sm font-sans">
-                Mannur po , palakkad , 678642,Kerala, India 
+            <li className="flex items-start gap-3">
+  <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
+  <div className="text-background/70 text-sm font-sans space-y-2">
+    <div>
+      <span className="block font-medium text-background">
+        India
+      </span>
+      <span>
+        Mannur PO, Palakkad, 678642, Kerala, India
+      </span>
+    </div>
+    <div>
+      <span className="block font-medium text-background">
+        United Kingdom
+      </span>
+      <span>
+        63, Monarch Way, Leighton Buzzard, LU7 1FW
+      </span>
+    </div>
+  </div>
+</li>
 
-                </span>
-              </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-accent flex-shrink-0" />
                 <a
@@ -98,6 +115,35 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            <div className="mt-6 flex items-center gap-4">
+  <a
+    href="https://facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all"
+  >
+    <Facebook size={16} />
+  </a>
+
+  <a
+    href="https://x.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all"
+  >
+    <X size={16} />
+  </a>
+
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all"
+  >
+    <Instagram size={16} />
+  </a>
+</div>
+
           </div>
         </div>
 

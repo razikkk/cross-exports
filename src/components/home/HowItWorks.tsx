@@ -61,7 +61,7 @@ const HowItWorks = () => {
                 className="text-center animate-slide-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="bg-background rounded-xl p-6 shadow-sm border border-border">
+<div className="bg-background rounded-xl p-6 shadow-sm border border-border h-full flex flex-col">
                   <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                     <step.icon className="w-7 h-7 text-primary-foreground" />
                   </div>

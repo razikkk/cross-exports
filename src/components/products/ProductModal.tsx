@@ -59,7 +59,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
             </p>
 
             {/* Key Specs */}
-            <div>
+            {/* <div>
               <h4 className="font-serif text-lg font-medium text-foreground mb-3">
                 Key Specs
               </h4>
@@ -80,7 +80,7 @@ const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Use Cases */}
             <div>

@@ -9,11 +9,11 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    company: "",
     phone: "",
-    product: "",
+    subject: "",
     message: "",
   });
+  
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (
@@ -37,9 +37,8 @@ const Contact = () => {
     setFormData({
       name: "",
       email: "",
-      company: "",
       phone: "",
-      product: "",
+      subject: "",
       message: "",
     });
     setIsSubmitting(false);
@@ -66,10 +65,17 @@ const Contact = () => {
     },
     {
       icon: MapPin,
-      label: "Location",
-      value: "Tamil Nadu, India",
+      label: "India Office",
+      value: "Mannur PO, Palakkad, 678642, Kerala, India",
       href: null,
     },
+    {
+      icon: MapPin,
+      label: "UK Office",
+      value: "63, Monarch Way, Leighton Buzzard, LU7 1FW, United Kingdom",
+      href: null,
+    },
+    
   ];
 
   return (
@@ -153,140 +159,94 @@ const Contact = () => {
                   Send Us a Message
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-6">
-                    <div>
-                      <label
-                        htmlFor="name"
-                        className="block text-sm font-sans font-medium text-foreground mb-2"
-                      >
-                        Full Name *
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                        placeholder="John Doe"
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-sans font-medium text-foreground mb-2"
-                      >
-                        Email Address *
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                        placeholder="john@company.com"
-                      />
-                    </div>
-                  </div>
+  <div className="grid sm:grid-cols-2 gap-6">
+    <div>
+      <label className="block text-sm font-sans font-medium text-foreground mb-2">
+        Full Name *
+      </label>
+      <input
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        required
+        placeholder="John Doe"
+        className="w-full px-4 py-3 rounded-md border border-border bg-background"
+      />
+    </div>
 
-                  <div className="grid sm:grid-cols-2 gap-6">
-                    <div>
-                      <label
-                        htmlFor="company"
-                        className="block text-sm font-sans font-medium text-foreground mb-2"
-                      >
-                        Company Name
-                      </label>
-                      <input
-                        type="text"
-                        id="company"
-                        name="company"
-                        value={formData.company}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                        placeholder="Your Company"
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="phone"
-                        className="block text-sm font-sans font-medium text-foreground mb-2"
-                      >
-                        Phone Number
-                      </label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                        placeholder="+1 234 567 8900"
-                      />
-                    </div>
-                  </div>
+    <div>
+      <label className="block text-sm font-sans font-medium text-foreground mb-2">
+        Email Address *
+      </label>
+      <input
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+        required
+        placeholder="john@email.com"
+        className="w-full px-4 py-3 rounded-md border border-border bg-background"
+      />
+    </div>
+  </div>
 
-                  <div>
-                    <label
-                      htmlFor="product"
-                      className="block text-sm font-sans font-medium text-foreground mb-2"
-                    >
-                      Product Interest
-                    </label>
-                    <select
-                      id="product"
-                      name="product"
-                      value={formData.product}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                    >
-                      <option value="">Select a product</option>
-                      <option value="coco-peat">Coco Peat / Coco Pith</option>
-                      <option value="coir-fibre">Coir Fibre</option>
-                      <option value="grow-bags">Coir Grow Bags</option>
-                      <option value="spices">Spices</option>
-                      <option value="urad-dal">Urad Dal</option>
-                      <option value="multiple">Multiple Products</option>
-                    </select>
-                  </div>
+  <div className="grid sm:grid-cols-2 gap-6">
+    <div>
+      <label className="block text-sm font-sans font-medium text-foreground mb-2">
+        Mobile Number *
+      </label>
+      <input
+        type="tel"
+        name="phone"
+        value={formData.phone}
+        onChange={handleChange}
+        required
+        placeholder="+91 98765 43210"
+        className="w-full px-4 py-3 rounded-md border border-border bg-background"
+      />
+    </div>
 
-                  <div>
-                    <label
-                      htmlFor="message"
-                      className="block text-sm font-sans font-medium text-foreground mb-2"
-                    >
-                      Message *
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={5}
-                      className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground font-sans focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors resize-none"
-                      placeholder="Tell us about your requirements..."
-                    />
-                  </div>
+    <div>
+      <label className="block text-sm font-sans font-medium text-foreground mb-2">
+        Subject *
+      </label>
+      <input
+        type="text"
+        name="subject"
+        value={formData.subject}
+        onChange={handleChange}
+        required
+        placeholder="Inquiry about products"
+        className="w-full px-4 py-3 rounded-md border border-border bg-background"
+      />
+    </div>
+  </div>
 
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2 disabled:opacity-70"
-                  >
-                    {isSubmitting ? (
-                      "Sending..."
-                    ) : (
-                      <>
-                        Send Message
-                        <Send size={18} />
-                      </>
-                    )}
-                  </button>
-                </form>
+  <div>
+    <label className="block text-sm font-sans font-medium text-foreground mb-2">
+      Message *
+    </label>
+    <textarea
+      name="message"
+      rows={5}
+      value={formData.message}
+      onChange={handleChange}
+      required
+      placeholder="Tell us about your requirements..."
+      className="w-full px-4 py-3 rounded-md border border-border bg-background resize-none"
+    />
+  </div>
+
+  <button
+    type="submit"
+    disabled={isSubmitting}
+    className="btn-primary w-full sm:w-auto inline-flex items-center gap-2 disabled:opacity-70"
+  >
+    {isSubmitting ? "Sending..." : <>Send Message <Send size={18} /></>}
+  </button>
+</form>
+
               </div>
             </div>
           </div>

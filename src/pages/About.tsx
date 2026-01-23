@@ -163,7 +163,7 @@ const About = () => {
       </section>
 
       {/* FAQ */}
-      <section className="section-padding bg-muted">
+      {/* <section className="section-padding bg-muted">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
@@ -194,7 +194,7 @@ const About = () => {
             </Accordion>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="section-padding bg-primary">

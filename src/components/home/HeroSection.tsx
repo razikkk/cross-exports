@@ -21,14 +21,14 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container-custom px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <span className="inline-block text-accent font-sans text-sm font-medium tracking-wider uppercase mb-4 animate-fade-in">
+          {/* <span className="inline-block text-accent font-sans text-sm font-medium tracking-wider uppercase mb-4 animate-fade-in">
           UK-Ready Export Partner for 
-          </span>
-          <h1 className="heading-display text-background mb-6 animate-slide-up">
-          Coir & {" "}
-            <span className="text-accent">Agro Products
-</span>
-          </h1>
+          </span> */}
+          <h1 className="heading-display text-background text-5xl sm:text-6xl lg:text-6xl font-bold mb-6 animate-slide-up">
+  Coir &{"  "}
+  <span className="text-accent">Agro Products</span>
+</h1>
+
           <p className="text-body text-background/80 mb-8 max-w-xl animate-slide-up" style={{ animationDelay: "0.1s" }}>
           We supply consistent, compliance-ready products with documentation support, quality checks, 
           and export coordination for smooth international deliveries.
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
 
           {/* Stats */}
-          <div className="mt-16 grid grid-cols-3 gap-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          {/* <div className="mt-16 grid grid-cols-3 gap-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             {[
               { value: "10+", label: "Years Experience" },
               { value: "15+", label: "Countries Served" },
@@ -60,7 +60,7 @@ const HeroSection = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
