@@ -76,16 +76,48 @@ const About = () => {
               <div className="divider-gold mb-6" />
               <div className="space-y-4 text-body text-muted-foreground">
                 <p>
-                We built our strength in the domestic market by focusing on consistent quality, dependable delivery, 
-                and long-term customer relationships.Now, we are expanding into exports to support UK,
-                 European, and global B2B buyers who need a supplier they can trust.
-                </p>
-                <p>
-                With a UK presence to support UK and European customers, we make international purchasing easier 
-                through clear communication, faster coordination, and export-ready documentation support.
+                Cross Exports is an India-based export company serving UK, European, and international B2B buyers
+                 with reliable product supply and export-ready coordination. We work with importers, wholesalers, 
+                 distributors, garden and horticulture businesses, and commercial buyers who require consistent quality, 
+                 clear documentation, and dependable delivery planning.
 
                 </p>
-               
+                <p>
+                Our journey began in India’s domestic market, where expectations around reliability, product consistency,
+                 and service standards are high. Through this experience, we developed a strong understanding of what buyers
+                  value most—stable supply, transparent communication, and the ability to deliver the same standard order after 
+                  order. As we expand internationally, we bring that same disciplined approach to export trade, supporting global 
+                  customers with structured processes and buyer-friendly service.
+                </p>
+               <p>
+               At Cross Exports, we focus on product categories that are widely used in global markets and frequently
+                sourced by professional buyers. Our core export offering includes coir products such as coco peat/coir pith
+                 (5kg blocks and 650gm briquettes), coir grow bags, and coir fibre. These products are in demand across horticulture
+                  and growing media industries, including garden centres, nurseries, hydroponics businesses, professional growers, 
+                  and distribution partners who supply to regional markets.
+               </p>
+               <p>
+               We also support a future-ready range of pulses and spices, designed for ethnic grocery wholesalers, food distribution businesses,
+                and international buyers looking to source from India. Urad Dal is currently available, and additional pulses and spice products 
+                can be supported based on buyer requirements and enquiry. Alongside these categories, we also maintain flexibility to source and 
+                export other agro commodities to meet evolving market demand.
+               </p>
+
+               <p>
+               A major advantage we provide is our UK presence/support, which helps UK and European customers coordinate orders more efficiently.
+                We understand that international sourcing is not only about pricing and product—it is also about time zones, response time, 
+                clarity of communication, and confidence in the supplier relationship. By supporting buyers through UK and Europe coordination,
+                 we aim to make ordering smoother, improve buyer experience, and help customers manage their supply chain with greater confidence.
+               </p>
+
+               <p>
+               Cross Exports is positioned to serve as a dependable sourcing partner for businesses that need a consistent
+                exporter who values quality, reliability, and professional communication. Whether you are a horticulture distributor
+                 sourcing coco peat for the UK market, a wholesaler supplying growing media to Europe, or a trade buyer looking for agro
+                  commodity supply, our team is ready to support your requirement with a buyer-first approach and long-term reliability.
+
+
+               </p>
               </div>
             </div>
             <div className="bg-muted rounded-lg aspect-[3/2] flex items-center justify-center ">

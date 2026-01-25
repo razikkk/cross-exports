@@ -47,22 +47,34 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      label: "Indian Phone",
+      value: "+91 9645324382",
+      href: "tel:+919645324382",
+    },
+    {
+      icon: Phone,
+      label: "UK Phone",
+      value: "+44 7733644159",
+      href: "tel:+447733644159",
     },
     {
       icon: Mail,
-      label: "Email",
+      label: "India Email",
       value: "info@crossexports.com",
       href: "mailto:info@crossexports.com",
     },
     {
-      icon: MessageCircle,
-      label: "WhatsApp",
-      value: "+91 98765 43210",
-      href: "https://wa.me/919876543210",
+      icon: Mail,
+      label: "UK Email",
+      value: "sales@crossexports.com",
+      href: "mailto:sales@crossexports.com",
     },
+    // {
+    //   icon: MessageCircle,
+    //   label: "WhatsApp",
+    //   value: "+91 98765 43210",
+    //   href: "https://wa.me/919876543210",
+    // },
     {
       icon: MapPin,
       label: "India Office",
@@ -131,7 +143,7 @@ const Contact = () => {
               </div>
 
               {/* Business Hours */}
-              <div className="card-premium p-6">
+              {/* <div className="card-premium p-6">
                 <h3 className="font-serif text-lg font-medium text-foreground mb-4">
                   Business Hours
                 </h3>
@@ -149,7 +161,7 @@ const Contact = () => {
                     <span className="text-foreground">Closed</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Contact Form */}

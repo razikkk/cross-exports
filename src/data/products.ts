@@ -24,7 +24,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "coco-peat",
-    name: "Coco Pith / Coir Peat",
+    name: "Coir Pith / Coco Peat",
     shortDescription: "Premium quality coco peat for superior plant growth and soil conditioning.",
     fullDescription: "Coco peat (coir pith) is a natural growing medium known for strong water retention, aeration, and root support. It is suitable for commercial horticulture and home gardening applications.",
     availableFormats: "5kg blocks and 650gm briquettes",
