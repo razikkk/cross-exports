@@ -61,11 +61,11 @@ const BlogPost = () => {
             <article className="lg:col-span-2">
               {/* Featured Image */}
               <div className="aspect-video rounded-lg overflow-hidden bg-muted mb-10">
-                <img
-                  src={blog.image}
-                  alt={blog.title}
-                  className="w-full h-full object-cover"
-                />
+              <img
+  src={blog.image.startsWith('http') ? blog.image : `/${blog.image}`}
+  alt={blog.title}
+  className="w-full h-full object-cover"
+/>
               </div>
 
               {/* Article Content */}
