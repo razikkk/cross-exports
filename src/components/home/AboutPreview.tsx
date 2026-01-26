@@ -16,7 +16,7 @@ const AboutPreview = () => {
     {
       icon: Award,
       title: "UK & EU Buyer Support:",
-      description: "Clear communication, order updates, and long-term partnership approach.",
+      description: "Local UK-side support to assist UK & European customers with quicker responses, smoother coordination, and reliable follow-ups.",
     },
   ];
 

@@ -1,13 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/common/PageHeader";
 import { Link } from "react-router-dom";
-import { ArrowRight, Target, Eye, Leaf, Users, TrendingUp, Shield } from "lucide-react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { ArrowRight, Target, Eye, Leaf, Users, TrendingUp, Shield, Globe, CheckCircle } from "lucide-react";
 import WhatWeDo from "@/components/about/WhatWeDo";
 
 const About = () => {
@@ -34,29 +28,6 @@ const About = () => {
     },
   ];
 
-  const faqs = [
-    {
-      question: "What countries do you export to?",
-      answer: "We currently export to the UK, European Union countries, Middle East, and are expanding our reach to North America and Australia. We can accommodate shipping to most international destinations.",
-    },
-    {
-      question: "What are your minimum order quantities?",
-      answer: "Minimum order quantities vary by product. For coir products, we typically require a minimum of one 20ft container. For smaller quantities, we can discuss consolidation options. Please contact us for specific product MOQs.",
-    },
-    {
-      question: "How do you ensure product quality?",
-      answer: "We have a multi-stage quality control process including source verification, in-house testing for parameters like EC, pH, and moisture content, and pre-shipment inspection. All our products come with quality certificates.",
-    },
-    {
-      question: "What certifications do your products have?",
-      answer: "Our products meet international quality standards. We can provide phytosanitary certificates, quality analysis reports, and other documentation required for import into your country.",
-    },
-    {
-      question: "What payment terms do you offer?",
-      answer: "We offer flexible payment terms including Letter of Credit (LC), Telegraphic Transfer (TT), and other arrangements based on the relationship and order size. We're happy to discuss terms that work for both parties.",
-    },
-  ];
-
   return (
     <Layout>
       <PageHeader
@@ -65,63 +36,92 @@ const About = () => {
         subtitle="We are an India-based exporter serving UK, Europe, and international buyers with reliable coir and agro product supply."
       />
 
-      {/* Company Story */}
+      {/* Company Story Section */}
       <section className="section-padding bg-background">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="heading-section text-foreground mb-6">
-                From Local Roots to Global Reach
-              </h2>
-              <div className="divider-gold mb-6" />
-              <div className="space-y-4 text-body text-muted-foreground">
-                <p>
-                Cross Exports is an India-based export company serving UK, European, and international B2B buyers
-                 with reliable product supply and export-ready coordination. We work with importers, wholesalers, 
-                 distributors, garden and horticulture businesses, and commercial buyers who require consistent quality, 
-                 clear documentation, and dependable delivery planning.
-
+          {/* Main Grid: items-start is key for the sticky effect */}
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            
+            {/* Left Column: Your Exact Text */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="heading-section text-foreground mb-6">
+                  From Local Roots to Global Reach
+                </h2>
+                <div className="divider-gold mb-8" />
+                
+                {/* Your first paragraph as a Lead Paragraph */}
+                <p className="text-xl text-foreground font-medium leading-relaxed font-serif">
+                  Cross Exports is an India-based export company serving UK, European, and international B2B buyers with reliable product supply and export-ready coordination. We work with importers, wholesalers, distributors, garden and horticulture businesses, and commercial buyers who require consistent quality, clear documentation, and dependable delivery planning.
                 </p>
+              </div>
+
+              <div className="space-y-6 text-body text-muted-foreground leading-relaxed font-sans">
                 <p>
-                Our journey began in India’s domestic market, where expectations around reliability, product consistency,
-                 and service standards are high. Through this experience, we developed a strong understanding of what buyers
-                  value most—stable supply, transparent communication, and the ability to deliver the same standard order after 
-                  order. As we expand internationally, we bring that same disciplined approach to export trade, supporting global 
-                  customers with structured processes and buyer-friendly service.
+                  Our journey began in India’s domestic market, where expectations around reliability, product consistency, and service standards are high. Through this experience, we developed a strong understanding of what buyers value most—stable supply, transparent communication, and the ability to deliver the same standard order after order. As we expand internationally, we bring that same disciplined approach to export trade, supporting global customers with structured processes and buyer-friendly service.
                 </p>
-               <p>
-               At Cross Exports, we focus on product categories that are widely used in global markets and frequently
-                sourced by professional buyers. Our core export offering includes coir products such as coco peat/coir pith
-                 (5kg blocks and 650gm briquettes), coir grow bags, and coir fibre. These products are in demand across horticulture
-                  and growing media industries, including garden centres, nurseries, hydroponics businesses, professional growers, 
-                  and distribution partners who supply to regional markets.
-               </p>
-               <p>
-               We also support a future-ready range of pulses and spices, designed for ethnic grocery wholesalers, food distribution businesses,
-                and international buyers looking to source from India. Urad Dal is currently available, and additional pulses and spice products 
-                can be supported based on buyer requirements and enquiry. Alongside these categories, we also maintain flexibility to source and 
-                export other agro commodities to meet evolving market demand.
-               </p>
+                
+                <p>
+                  At Cross Exports, we focus on product categories that are widely used in global markets and frequently sourced by professional buyers. Our core export offering includes coir products such as coco peat/coir pith (5kg blocks and 650gm briquettes), coir grow bags, and coir fibre. These products are in demand across horticulture and growing media industries, including garden centres, nurseries, hydroponics businesses, professional growers, and distribution partners who supply to regional markets.
+                </p>
 
-               <p>
-               A major advantage we provide is our UK presence/support, which helps UK and European customers coordinate orders more efficiently.
-                We understand that international sourcing is not only about pricing and product—it is also about time zones, response time, 
-                clarity of communication, and confidence in the supplier relationship. By supporting buyers through UK and Europe coordination,
-                 we aim to make ordering smoother, improve buyer experience, and help customers manage their supply chain with greater confidence.
-               </p>
+                <p>
+                  We also support a future-ready range of pulses and spices, designed for ethnic grocery wholesalers, food distribution businesses, and international buyers looking to source from India. Urad Dal is currently available, and additional pulses and spice products can be supported based on buyer requirements and enquiry. Alongside these categories, we also maintain flexibility to source and export other agro commodities to meet evolving market demand.
+                </p>
 
-               <p>
-               Cross Exports is positioned to serve as a dependable sourcing partner for businesses that need a consistent
-                exporter who values quality, reliability, and professional communication. Whether you are a horticulture distributor
-                 sourcing coco peat for the UK market, a wholesaler supplying growing media to Europe, or a trade buyer looking for agro
-                  commodity supply, our team is ready to support your requirement with a buyer-first approach and long-term reliability.
+                {/* Highlighted section for the UK Support paragraph */}
+                <div className="bg-muted/40 p-6 rounded-xl border-l-4 border-accent">
+                  <p className="text-foreground font-medium">
+                    A major advantage we provide is our UK presence/support, which helps UK and European customers coordinate orders more efficiently. We understand that international sourcing is not only about pricing and product—it is also about time zones, response time, clarity of communication, and confidence in the supplier relationship. By supporting buyers through UK and Europe coordination, we aim to make ordering smoother, improve buyer experience, and help customers manage their supply chain with greater confidence.
+                  </p>
+                </div>
 
-
-               </p>
+                <p>
+                  Cross Exports is positioned to serve as a dependable sourcing partner for businesses that need a consistent exporter who values quality, reliability, and professional communication. Whether you are a horticulture distributor sourcing coco peat for the UK market, a wholesaler supplying growing media to Europe, or a trade buyer looking for agro commodity supply, our team is ready to support your requirement with a buyer-first approach and long-term reliability.
+                </p>
               </div>
             </div>
-            <div className="bg-muted rounded-lg aspect-[3/2] flex items-center justify-center ">
-              <span className="text-muted-foreground font-sans"><img src="/about-cross.jpg" alt="" className="rounded-[20px]" /></span>
+
+            {/* Right Column: Sticky Image Container */}
+            <div className="lg:sticky lg:top-24 space-y-6">
+              <div className="relative group">
+                {/* Vertical Image */}
+                <div className="bg-muted rounded-2xl overflow-hidden aspect-[3/4] shadow-2xl border border-border/50">
+                  <img 
+                    src="/about-cross.jpg" 
+                    alt="Cross Exports Production and Logistics" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                  />
+                  {/* Subtle Dark Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
+                </div>
+
+                {/* Floating Badge for UK/EU Advantage */}
+                <div className="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl shadow-xl text-primary-foreground hidden md:block border-4 border-background">
+                  <div className="flex items-center gap-4">
+                    <Globe className="w-10 h-10 opacity-90" />
+                    <div>
+                      <span className="block text-xl font-bold">UK & Europe</span>
+                      <span className="text-xs uppercase tracking-widest opacity-80">Local Coordination</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Quick Features List */}
+              <div className="grid grid-cols-2 gap-4 pt-8">
+                {[
+                  "Stable Supply",
+                  "Consistent Quality",
+                  "Clear Documentation",
+                  "Expert Logistics"
+                ].map((item) => (
+                  <div key={item} className="flex items-center gap-2 text-sm font-medium text-foreground">
+                    <CheckCircle className="text-accent w-4 h-4 flex-shrink-0" />
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -131,46 +131,41 @@ const About = () => {
       <section className="section-padding bg-muted">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Mission */}
             <div className="card-premium p-8">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                 <Target className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="heading-section text-foreground mb-4">Our Mission</h3>
+              <h3 className="heading-section text-foreground mb-4 font-serif">Our Mission</h3>
               <p className="text-body text-muted-foreground">
-              To deliver export-ready products with reliable supply, clear documentation, and 
-              consistent service that helps our buyers grow their business confidently.
-
+                To deliver export-ready products with reliable supply, clear documentation, and 
+                consistent service that helps our buyers grow their business confidently.
               </p>
             </div>
 
-            {/* Vision */}
             <div className="card-premium p-8">
               <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-6">
                 <Eye className="w-7 h-7 text-secondary" />
               </div>
-              <h3 className="heading-section text-foreground mb-4">Our Vision</h3>
+              <h3 className="heading-section text-foreground mb-4 font-serif">Our Vision</h3>
               <p className="text-body text-muted-foreground">
-              To become a trusted exporter for UK and international buyers by offering scalable supply, 
-              transparent processes, and strong long-term partnerships.
-
+                To become a trusted exporter for UK and international buyers by offering scalable supply, 
+                transparent processes, and strong long-term partnerships.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <WhatWeDo/>
+      <WhatWeDo />
 
-
-      {/* Values */}
+      {/* Values Section */}
       <section className="section-padding bg-background">
         <div className="container-custom">
           <div className="text-center mb-16">
             <span className="text-primary font-sans text-sm font-medium tracking-wider uppercase">
-              What We Stand For
+              Professional Standards
             </span>
-            <h2 className="heading-section text-foreground mt-3 mb-4">Our Values</h2>
+            <h2 className="heading-section text-foreground mt-3 mb-4 font-serif">Our Values</h2>
             <div className="divider-gold mx-auto" />
           </div>
 
@@ -178,13 +173,12 @@ const About = () => {
             {values.map((value, index) => (
               <div
                 key={value.title}
-                className="text-center animate-slide-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="text-center p-6 rounded-xl hover:bg-muted/50 transition-colors duration-300"
               >
                 <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mx-auto mb-4">
                   <value.icon className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="heading-card text-foreground mb-2">{value.title}</h3>
+                <h3 className="font-serif text-lg font-bold text-foreground mb-2">{value.title}</h3>
                 <p className="text-muted-foreground text-sm font-sans">
                   {value.description}
                 </p>
@@ -194,53 +188,19 @@ const About = () => {
         </div>
       </section>
 
-      {/* FAQ */}
-      {/* <section className="section-padding bg-muted">
-        <div className="container-custom">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-primary font-sans text-sm font-medium tracking-wider uppercase">
-                Common Questions
-              </span>
-              <h2 className="heading-section text-foreground mt-3 mb-4">
-                Frequently Asked Questions
-              </h2>
-              <div className="divider-gold mx-auto" />
-            </div>
-
-            <Accordion type="single" collapsible className="space-y-4">
-              {faqs.map((faq, index) => (
-                <AccordionItem
-                  key={index}
-                  value={`faq-${index}`}
-                  className="bg-card rounded-lg px-6 border-none shadow-sm"
-                >
-                  <AccordionTrigger className="font-serif text-lg font-medium text-foreground hover:text-primary hover:no-underline py-5">
-                    {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground font-sans pb-5">
-                    {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-        </div>
-      </section> */}
-
-      {/* CTA */}
+      {/* CTA Section */}
       <section className="section-padding bg-primary">
         <div className="container-custom text-center">
-          <h2 className="heading-section text-primary-foreground mb-6">
+          <h2 className="heading-section text-primary-foreground mb-6 font-serif">
             Let's Work Together
           </h2>
-          <p className="text-body text-primary-foreground/80 max-w-2xl mx-auto mb-8">
+          <p className="text-body text-primary-foreground/80 max-w-2xl mx-auto mb-8 font-sans">
             Ready to source premium coir and agro products? We're here to help you 
-            find the right products for your business needs.
+            find the right products for your business needs with structured coordination.
           </p>
           <Link
             to="/contact"
-            className="bg-background text-foreground px-6 py-3 rounded-md font-sans font-medium transition-all duration-300 hover:bg-background/90 inline-flex items-center gap-2"
+            className="bg-background text-foreground px-8 py-4 rounded-md font-sans font-bold transition-all duration-300 hover:scale-105 inline-flex items-center gap-2 shadow-lg"
           >
             Contact Us
             <ArrowRight size={18} />

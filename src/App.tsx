@@ -10,6 +10,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/common/ScrollTop";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,9 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        {/* Force scroll to top on every navigation */}
+        <ScrollToTop /> 
+        
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

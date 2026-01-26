@@ -14,205 +14,202 @@ export interface Blog {
 
 export const blogs: Blog[] = [
   
-    {
-      id: "choosing-coco-peat-uk",
-      title: "How to Choose the Right Coco Peat for UK Horticulture Buyers",
-      excerpt: "With the UK peat ban in full effect, selecting the right coir grade is crucial for commercial success.",
-      content: `
-        <p>The UK horticultural market is undergoing a massive shift as professional growers move away from traditional peat. Selecting the right coco peat requires balancing water retention with air porosity.</p>
-        
-        <h2>Grade Selection</h2>
-        <p>Standard fine-grade coco peat is ideal for seed starting and bedding plants. However, for UK nursery stock and perennial growers, 'crushed' or 'husk chip' blends are preferred to prevent compaction during the damp UK winter months.</p>
-        
-        <h2>Compliance and Standards</h2>
-        <p>UK buyers should ensure their coco peat meets the Responsible Sourcing Scheme for Growing Media. Always request technical data sheets that specify the fiber-to-pith ratio.</p>
-      `,
-      author: "UK Trade Specialist",
-      date: "January 25, 2026",
-      readTime: "6 min read",
-      category: "Horticulture",
-      image: "coir-blog-1.jpg" // Suggested: A high-tech UK greenhouse using coir slabs
-    },
-    {
-      id: "blocks-vs-briquettes",
-      title: "Coco Peat Blocks vs Briquettes: Which Format is Best?",
-      excerpt: "Analyze the cost-efficiency and logistics of different compressed coir formats for your business.",
-      content: `
-        <p>Choosing between 5kg blocks and 650g briquettes is primarily a logistical decision based on your distribution model.</p>
-        
-        <h2>5kg Blocks: The Bulk Choice</h2>
-        <p>Ideal for commercial growers and potting soil manufacturers. They offer the best value per cubic meter. One pallet typically holds 220-250 blocks, expanding to approximately 15 cubic meters of material.</p>
-        
-        <h2>650g Briquettes: The Retail Winner</h2>
-        <p>If you are a UK distributor selling to garden centers, briquettes are the way to go. They are easy for consumers to carry, fit perfectly in 10L buckets for rehydration, and are often shrink-wrapped for clean shelf display.</p>
-      `,
-      author: "Logistics Expert",
-      date: "January 22, 2026",
-      readTime: "4 min read",
-      category: "Operations",
-      image: "coir-blog-2.jpg" // Suggested: A side-by-side shot of a 5kg block and a small briquette
-    },
-    {
-      id: "ph-ec-importer-guide",
-      title: "Understanding pH and EC in Coir Pith",
-      excerpt: "The technical parameters every importer must check to ensure crop safety and quality.",
-      content: `
-        <p>For an importer, pH and EC (Electrical Conductivity) are the two most critical numbers on a COA (Certificate of Analysis).</p>
-        
-        <h2>The Importance of EC</h2>
-        <p>Raw coir is naturally high in sodium and potassium. For horticulture, you need 'Low EC' coir (usually < 0.5 mS/cm). High EC can lead to nutrient lockout and "leaf burn" in sensitive UK crops like strawberries.</p>
-        
-        <h2>Managing pH Levels</h2>
-        <p>Coco peat is naturally slightly acidic (pH 5.5 to 6.5), which is ideal for most plants. Importers should check that the pH is stable and hasn't been artificially adjusted with chemicals that might leach out.</p>
-      `,
-      author: "Quality Control Lab",
-      date: "January 20, 2026",
-      readTime: "8 min read",
-      category: "Technical",
-      image: "coir-blog-3.jpg" // Suggested: A lab technician testing soil conductivity
-    },
-    {
-      id: "quality-checklist-bulk-orders",
-      title: "Quality Checklist for Coco Peat Imports",
-      excerpt: "Don't place a bulk order without verifying these five critical quality markers.",
-      content: `
-        <p>Importing in bulk requires due diligence. Use this checklist before wire transferring funds for a full container load (FCL).</p>
-        
-        <ul>
-          <li><strong>Expansion Volume:</strong> Does 1kg of dry material yield at least 15 liters of hydrated peat?</li>
-          <li><strong>Sand Content:</strong> Ensure sand/impurity content is below 3% to avoid weight fraud.</li>
-          <li><strong>Weed Seeds:</strong> Is the material phytosanitary certified and free of pathogens?</li>
-          <li><strong>Moisture Level:</strong> Should be below 15-18% to prevent mold during the long sea voyage.</li>
-          <li><strong>Washing Process:</strong> Verify if the product is 'Triple Washed' or 'Buffered'.</li>
-        </ul>
-      `,
-      author: "Procurement Manager",
-      date: "January 18, 2026",
-      readTime: "5 min read",
-      category: "Import Guide",
-      image: "coir-blog-4.jpg" // Suggested: Close up of high-quality, golden-brown coir texture
-    },
-    {
-      id: "coir-grow-bags-commercial",
-      title: "How Coir Grow Bags Help Commercial Greenhouse Farming",
-      excerpt: "Maximize yield and drainage in hydroponic setups using specialized coir slabs.",
-      content: `
-        <p>Commercial greenhouse farming in the UK and Europe has moved toward 'precision' growing. Coir grow bags are at the heart of this revolution.</p>
-        
-        <h2>Optimized Drainage</h2>
-        <p>Grow bags come with pre-cut drainage slits and planting holes, customized for crops like tomatoes, peppers, and cucumbers. The dual-layer structure (fine peat on top, coarse chips on bottom) ensures perfect root oxygenation.</p>
-        
-        <h2>Ease of Setup</h2>
-        <p>Slabs are delivered dry and compressed. Once laid out and hydrated via drip irrigation, they provide a sterile, ready-to-use environment that lasts for multiple growing seasons.</p>
-      `,
-      author: "Agronomist",
-      date: "January 15, 2026",
-      readTime: "6 min read",
-      category: "Greenhouse",
-      image: "coir-blog-5.jpg" // Suggested: Long rows of tomatoes growing in coir slabs
-    },
-    {
-      id: "private-label-coir-uk",
-      title: "Private Label Coir Products: What UK Distributors Need to Know",
-      excerpt: "How to build your own brand in the growing UK sustainable gardening market.",
-      content: `
-        <p>White-labeling coir products allows UK distributors to build brand equity. However, packaging for the UK market requires specific attention to detail.</p>
-        
-        <h2>Packaging Requirements</h2>
-        <p>Your packaging must include instructions in English, volume in liters (when hydrated), and sustainability certifications. Using recyclable LDPE bags for your private label is highly recommended to stay consistent with the "eco-friendly" message.</p>
-        
-        <h2>Partnering with the Right Manufacturer</h2>
-        <p>Look for exporters who offer custom printing and UV-treated packaging that won't fade in garden center display areas.</p>
-      `,
-      author: "Branding Consultant",
-      date: "January 12, 2026",
-      readTime: "5 min read",
-      category: "Business",
-      image: "coir-blog-6.webp" // Suggested: Custom branded garden center bags
-    },
-    {
-      id: "incoterms-for-importers",
-      title: "Incoterms Explained: FOB vs CIF vs DDP",
-      excerpt: "A simple guide to understanding shipping responsibilities for UK coir importers.",
-      content: `
-        <p>Navigating international shipping terms is vital for calculating your "landed cost." Here are the three most common terms used in the coir trade.</p>
-        
-        <h2>FOB (Free On Board)</h2>
-        <p>The exporter delivers the goods to the port in India. You (the buyer) handle the ocean freight and UK customs. This offers the most control over shipping costs.</p>
-        
-        <h2>CIF (Cost, Insurance, and Freight)</h2>
-        <p>The exporter pays to get the goods to a UK port (like Felixstowe). It's convenient but you may have less control over which shipping line is used.</p>
-        
-        <h2>DDP (Delivered Duty Paid)</h2>
-        <p>The exporter handles everything, including UK import duties. This is the "hassle-free" option but usually the most expensive.</p>
-      `,
-      author: "Shipping Analyst",
-      date: "January 10, 2026",
-      readTime: "7 min read",
-      category: "Logistics",
-      image: "coir-blog-7.jpg" // Suggested: A cargo ship at a busy port
-    },
-    {
-      id: "export-documentation-guide",
-      title: "Export Documentation Guide for UK Buyers",
-      excerpt: "Ensure a smooth customs clearance with the correct paperwork from your Indian exporter.",
-      content: `
-        <p>Missing paperwork can lead to expensive demurrage charges at UK ports. Ensure your exporter provides these three core documents.</p>
-        
-        <h2>1. Bill of Lading (B/L)</h2>
-        <p>Your title to the goods. Ensure the description matches your purchase order exactly.</p>
-        
-        <h2>2. Certificate of Analysis (COA)</h2>
-        <p>Crucial for coir. It proves the EC and pH levels meet the standards agreed upon in your contract.</p>
-        
-        <h2>3. Phytosanitary Certificate</h2>
-        <p>Since coir is a plant-based product, UK customs require this to ensure the product is heat-treated and free of pests.</p>
-      `,
-      author: "Compliance Officer",
-      date: "January 08, 2026",
-      readTime: "5 min read",
-      category: "Documentation",
-      image: "coir-blog-8.jpg" // Suggested: A professional desk with stamps and paperwork
-    },
-    {
-      id: "urad-dal-sourcing-tips",
-      title: "Urad Dal Sourcing for UK Ethnic Wholesale",
-      excerpt: "Quality markers and consistency tips for importing pulses for the UK market.",
-      content: `
-        <p>Urad Dal is a staple in the UK ethnic food sector. For wholesalers, consistency in "cooking time" and "sheen" is what keeps customers coming back.</p>
-        
-        <h2>Quality Indicators</h2>
-        <p>Look for 'Latur' or 'Bikaner' quality pulses. The moisture content should be below 12% to prevent weevil infestation. For Urad Dal (Whole), the black skin should be lustrous and free from "pitted" marks.</p>
-        
-        <h2>Sorting Standards</h2>
-        <p>Ensure your exporter uses Sortex cleaning technology. This laser-sorting ensures that stones, discolored grains, and foreign matter are 99.9% removed.</p>
-      `,
-      author: "Food Sourcing Specialist",
-      date: "January 05, 2026",
-      readTime: "6 min read",
-      category: "Spices & Pulses",
-      image: "urad-dal.jpg" // Suggested: Close up of polished black and white urad dal
-    },
-    {
-      id: "reliable-supply-partnership",
-      title: "How to Build a Reliable Supply Partnership with an Indian Exporter",
-      excerpt: "Move beyond one-off transactions to a strategic partnership that ensures supply chain stability.",
-      content: `
-        <p>In the commodity business, the strongest asset isn't just the price—it's the relationship. Here is how to build a lasting bond with your Indian supplier.</p>
-        
-        <h2>Clear Communication</h2>
-        <p>Define your Quality Parameters (QP) in writing before the first sample is sent. Use platforms like WhatsApp for quick updates, but always confirm critical decisions via email.</p>
-        
-        <h2>Visit the Facility</h2>
-        <p>If possible, visit the production units in Pollachi or Tuticorin. Seeing the drying yards and the washing units firsthand builds trust and allows you to understand the seasonal challenges (like monsoon) that might affect supply.</p>
-      `,
-      author: "Cross Exports Director",
-      date: "January 01, 2026",
-      readTime: "5 min read",
-      category: "Partnership",
-      image: "coir-blog-10.jpg" // Suggested: Two business partners shaking hands at a factory
-    }
-  
+  {
+    id: "global-demand-coco-peat",
+    title: "Global Demand for Coco Peat: Why Buyers Are Switching",
+    excerpt: "Discover why global horticulture is shifting toward coir-based substrates for stability and sustainability.",
+    content: `
+      <p>Global horticulture is shifting toward growing media that performs consistently and aligns with sustainability targets. Coco peat (coco pith) has become a preferred choice because it is renewable, easy to transport, and widely used in professional cultivation.</p>
+      
+      <h2>The Shift from Peat to Coir</h2>
+      <p>One of the most important reasons behind this shift is peat reduction. Peatlands cover only around 3–4% of the Earth's terrestrial surface, yet they store up to one-third of the world's soil carbon. Protecting these ecosystems is now a global priority.</p>
+      
+      <h2>Market Growth</h2>
+      <p>The global coco coir market reached USD 393.75 million in 2024 and is projected to reach USD 628.55 million by 2033, growing at a CAGR of 5.07%. Asia Pacific dominates this market with over 35.7% share.</p>
+      
+      <h2>B2B Fundamentals</h2>
+      <p>For importers, coco peat is attractive because it matches both wholesale and retail demand through formats like 5kg blocks and 650g bricks. Consistency and reliability in supply are the keys to successful B2B trade.</p>
+    `,
+    author: "Cross Exports Team",
+    date: "January 25, 2026",
+    readTime: "5 min read",
+    category: "Market Trends",
+    image: "/coir-blog-1.jpg"
+  },
+  {
+    id: "blocks-vs-bricks-format",
+    title: "5kg Blocks vs 650g Bricks: Choosing the Right Format",
+    excerpt: "A guide for importers to match coir formats with their specific distribution channels.",
+    content: `
+      <p>Selecting the right coco peat format can significantly impact your success as an importer. Two formats dominate: the 5kg block and the 650g brick.</p>
+      
+      <h2>5kg Blocks: Professional Choice</h2>
+      <p>The 5kg block is preferred by wholesale customers, greenhouse farms, and substrate blenders. It is efficient for bulk handling and offers the best value for large-scale professional use.</p>
+      
+      <h2>650g Bricks: Retail Ready</h2>
+      <p>Garden centers and home growers prefer bricks because they are compact and easy to sell. For distributors working in mixed markets, stocking both sizes is often the best strategy to capture all customer segments.</p>
+    `,
+    author: "Logistics Expert",
+    date: "January 22, 2026",
+    readTime: "4 min read",
+    category: "Operations",
+    image: "/coir-blog-2.jpg"
+  },
+  {
+    id: "sustainability-peatland-protection",
+    title: "Sustainability: Why Peatland Protection is Changing Decisions",
+    excerpt: "How environmental conservation is reshaping the global horticulture supply chain.",
+    content: `
+      <p>Sustainability is no longer just marketing—it affects product selection and long-term planning. Peatlands are critical natural carbon sinks, storing one-third of the world's soil carbon.</p>
+      
+      <h2>Carbon Sequestration</h2>
+      <p>When peatlands are drained, they release massive amounts of carbon. This has led to a surge in demand for coir-based alternatives that can work at scale without damaging delicate ecosystems.</p>
+      
+      <h2>Building Credibility</h2>
+      <p>Premium B2B brands build trust by focusing on stable quality and transparency rather than unsupported environmental slogans. Sustainable positioning is most powerful when backed by consistent supply standards.</p>
+    `,
+    author: "Environmental Analyst",
+    date: "January 20, 2026",
+    readTime: "6 min read",
+    category: "Sustainability",
+    image: "/coir-blog-3.jpg"
+  },
+  {
+    id: "coir-fibre-price-trends",
+    title: "Export Market Insight: Coir Fibre Prices and Signals",
+    excerpt: "Understanding how price movements in 2024 reflect global demand and supply patterns.",
+    content: `
+      <p>In 2024, coir fibre prices in regions like Sri Lanka rose from $56 to over $70 per ton, signaling strong global demand and tightening supply.</p>
+      
+      <h2>Supply Chain Links</h2>
+      <p>Even though coco peat and fibre have different uses, they share an ecosystem. Rising fibre prices often indicate a more active value chain across horticulture and landscaping industries.</p>
+      
+      <h2>Risk Mitigation</h2>
+      <p>For B2B buyers, the best approach to price volatility is early specification confirmation and securing repeat supply schedules to protect margins during market changes.</p>
+    `,
+    author: "Market Researcher",
+    date: "January 18, 2026",
+    readTime: "5 min read",
+    category: "Finance",
+    image: "/coir-blog-4.jpg"
+  },
+  {
+    id: "greenhouse-hydroponic-standard",
+    title: "Coco Peat for Greenhouses: The Global Standard",
+    excerpt: "Why controlled-environment agriculture relies on coco peat for yield and consistency.",
+    content: `
+      <p>Commercial growers rely on greenhouses and hydroponics for yield consistency. These systems require stable inputs, making coco peat a critical component due to its standardized export formats.</p>
+      
+      <h2>Precision Growing</h2>
+      <p>In hydroponic setups, the ability to control moisture and nutrients is vital. Coco peat's structure supports root oxygenation and water retention better than traditional soil-based methods.</p>
+      
+      <h2>Predictable Characteristics</h2>
+      <p>B2B buyers in this sector require suppliers who can support repeat supply with predictable product characteristics, ensuring that every batch behaves the same in a high-tech greenhouse.</p>
+    `,
+    author: "Agronomist",
+    date: "January 15, 2026",
+    readTime: "6 min read",
+    category: "Greenhouse",
+    image: "/coir-blog-5.jpg"
+  },
+  {
+    id: "market-outlook-2033",
+    title: "Market Outlook (2024–2033): What Buyers Should Expect",
+    excerpt: "A deep dive into the projected growth of the coir industry over the next decade.",
+    content: `
+      <p>The global coco coir market is expected to grow at a CAGR of 5.07% through 2033. This growth is driven by professional horticulture expansion and population growth.</p>
+      
+      <h2>Regional Strength</h2>
+      <p>Asia Pacific holds over 35.7% of the market share, highlighting where the processing capacity remains concentrated. Long-term stability in this region is a key signal for global buyers.</p>
+      
+      <h2>Strategic Sourcing</h2>
+      <p>Buyers who rely on spot purchasing may face variability. Building long-term programs is becoming the standard for distributors who need to guarantee stock during peak planting seasons.</p>
+    `,
+    author: "Trade Director",
+    date: "January 12, 2026",
+    readTime: "7 min read",
+    category: "Market Trends",
+    image: "/coir-blog-6.webp"
+  },
+  {
+    id: "marketing-sustainability-factually",
+    title: "Sustainability and Organic Positioning: Avoiding Over-Claims",
+    excerpt: "How to communicate environmental benefits in B2B trade with transparency.",
+    content: `
+      <p>In B2B trade, sustainability messaging must be factual. Avoid terms like '100% organic' unless they are backed by specific country-level certifications.</p>
+      
+      <h2>Clean Communication</h2>
+      <p>The strongest exporters focus on responsible sourcing and processing consistency. Highlighting the reduction of peat usage is a powerful and verifiable claim that resonates with modern buyers.</p>
+      
+      <h2>Trust-Based Branding</h2>
+      <p>International brand strength comes from packaging discipline and documentation. When a buyer sees professional technical data sheets, they trust the environmental claims more readily.</p>
+    `,
+    author: "Branding Consultant",
+    date: "January 09, 2026",
+    readTime: "5 min read",
+    category: "Business",
+    image: "/coir-blog-7.jpg"
+  },
+  {
+    id: "buyer-checklist-importing",
+    title: "Global Buyer Checklist: What to Ask Before Importing",
+    excerpt: "Reduce your risk with this essential checklist for coco peat procurement.",
+    content: `
+      <p>Successful imports are built on preparation. Use this checklist to align your expectations with your supplier before placing a container load order.</p>
+      
+      <ul>
+        <li><strong>Format:</strong> Does the format (5kg vs 650g) match your distribution channel?</li>
+        <li><strong>EC Levels:</strong> Are the Electrical Conductivity levels suitable for the target crops?</li>
+        <li><strong>Packing:</strong> Is the packaging UV-treated and export-ready to prevent transit damage?</li>
+        <li><strong>Logistics:</strong> Is the documentation (Phytosanitary, COA) coordinated for your specific port?</li>
+      </ul>
+    `,
+    author: "Procurement Manager",
+    date: "January 06, 2026",
+    readTime: "5 min read",
+    category: "Import Guide",
+    image: "/coir-blog-8.webp"
+  },
+  {
+    id: "future-sustainable-agriculture",
+    title: "Coco Peat and the Future of Sustainable Agriculture",
+    excerpt: "How coir products are fitting into the global puzzle of climate goals and food security.",
+    content: `
+      <p>The future of agriculture is shaped by efficiency and reliability. Coco peat fits this future because it is renewable and supports professional growing systems globally.</p>
+
+      
+
+      <h2>Addressing Affordability</h2>
+      <p>As fertilizer and energy costs fluctuate, growers need substrates that optimize water and nutrient uptake. Coco peat provides the physical structure necessary to reduce waste in high-intensity farming.</p>
+      
+      <h2>Long-Term Resilience</h2>
+      <p>Exporters who deliver consistency across batches will lead the market. The move toward peat alternatives is not just a trend; it is a fundamental shift in how the world grows food.</p>
+    `,
+    author: "Agricultural Expert",
+    date: "January 03, 2026",
+    readTime: "6 min read",
+    category: "Sustainability",
+    image: "/coir-blog-9.webp"
+  },
+  {
+    id: "reliable-partnership-building",
+    title: "How to Build a Reliable Supply Partnership",
+    excerpt: "Moving beyond transactions to create a stable, long-term coir supply chain.",
+    content: `
+      <p>In the commodity world, the relationship is your strongest asset. Building a partnership with an Indian exporter requires clear communication and a shared understanding of quality.</p>
+      
+      <h2>Facility Inspections</h2>
+      <p>Seeing the drying yards and washing units firsthand builds trust. Understanding seasonal challenges like monsoons helps importers plan their stock cycles more effectively.</p>
+      
+      <h2>Technical Alignment</h2>
+      <p>Standardizing your Quality Parameters (QP) in writing ensures that every shipment meets the exact needs of your end-growers, reducing the risk of disputes and delays.</p>
+    `,
+    author: "Cross Exports Team",
+    date: "January 01, 2026",
+    readTime: "5 min read",
+    category: "Partnership",
+    image: "/coir-blog-10.jpg"
+  }
 
   
   

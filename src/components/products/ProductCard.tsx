@@ -10,6 +10,11 @@ interface ProductCardProps {
 const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // Use the first image from the array as the thumbnail
+  const displayImage = product.images && product.images.length > 0 
+    ? product.images[0] 
+    : "/placeholder.jpg"; // Optional: Add a placeholder path
+
   return (
     <>
       <div
@@ -17,10 +22,10 @@ const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
         style={{ animationDelay: `${index * 0.1}s` }}
         onClick={() => setIsModalOpen(true)}
       >
-        {/* Image */}
+        {/* Image - Now using displayImage (the first index of the array) */}
         <div className="aspect-square overflow-hidden bg-muted">
           <img
-            src={product.image}
+            src={displayImage}
             alt={product.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
@@ -34,9 +39,16 @@ const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
           <p className="text-muted-foreground text-sm font-sans line-clamp-2">
             {product.shortDescription}
           </p>
-          <span className="inline-block mt-4 text-primary text-sm font-sans font-medium">
-            Learn More →
-          </span>
+          
+          <div className="flex justify-between items-center mt-4">
+            <span className="text-primary text-sm font-sans font-medium">
+              View Details →
+            </span>
+            {/* Optional: Show how many views/images are available */}
+            <span className="text-[10px] text-muted-foreground uppercase tracking-widest bg-muted px-2 py-1 rounded">
+              {product.images.length} Photos
+            </span>
+          </div>
         </div>
       </div>
 
