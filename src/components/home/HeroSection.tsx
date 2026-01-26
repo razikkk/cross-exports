@@ -14,18 +14,19 @@ const slides = [
     highlight: "Agro Products",
     description: "We supply consistent, compliance-ready products with documentation support and export coordination for smooth international deliveries."
   },
+ 
+  {
+    image: heroLogistics,
+    title: "Global",
+    highlight: "Supply Chain",
+    description: "Bulk supply | Export-ready packaging | Global buyer support | UK presence available"
+  },
   {
     image: heroAgro,
     title: "Premium",
     highlight: "Indian Spices",
     description: "Sourcing authentic, high-grade spices directly from traditional farms with strict quality control for global markets."
   },
-  {
-    image: heroLogistics,
-    title: "Global",
-    highlight: "Supply Chain",
-    description: "Strategic UK and Europe coordination to ensure seamless logistics and reliable long-term B2B partnerships."
-  }
 ];
 
 const HeroSection = () => {

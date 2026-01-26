@@ -11,17 +11,29 @@ const Footer = () => {
       <div className="container-custom section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
-          <div className="space-y-4">
-            <Link to="/" className="inline-block">
-              <span className="font-serif text-2xl font-semibold">
-                Cross<span className="text-accent">Exports</span>
-              </span>
-            </Link>
-            <p className="text-background/70 font-sans text-sm leading-relaxed">
-              India-based exporter of premium coir products and selected agro products. 
-              Delivering quality from India to the world.
-            </p>
-          </div>
+          <div className="relative flex flex-col items-start">
+  {/* Link and Logo Container */}
+  <Link 
+    to="/" 
+    className="relative z-20 inline-block -mt-24 -mb-12 transition-transform hover:scale-105"
+  >
+    <span className="font-serif">
+      <img 
+        src="cross.png" 
+        alt="Cross Exports Logo" 
+        className="h-50 w-auto object-contain" 
+      />
+    </span>
+  </Link>
+
+  {/* Text Content */}
+  <div className="relative z-10 pl-4"> 
+    <p className="text-background/70 font-sans text-sm leading-relaxed max-w-[250px]">
+      India-based exporter of premium coir products and selected agro products. 
+      Delivering quality from India to the world.
+    </p>
+  </div>
+</div>
 
           {/* Quick Links */}
           <div>
@@ -75,7 +87,7 @@ const Footer = () => {
   <h4 className="font-serif text-lg font-medium mb-4">Contact Us</h4>
   <ul className="space-y-6">
     {/* Address Section */}
-    <li className="flex items-start gap-3">
+    {/* <li className="flex items-start gap-3">
       <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
       <div className="text-background/70 text-sm font-sans space-y-3">
         <div>
@@ -87,7 +99,7 @@ const Footer = () => {
           <span>63, Monarch Way, Leighton Buzzard, LU7 1FW</span>
         </div>
       </div>
-    </li>
+    </li> */}
 
     {/* Phone Section */}
     <li className="flex items-start gap-3">
@@ -109,7 +121,7 @@ const Footer = () => {
       <Mail size={18} className="text-accent mt-1 flex-shrink-0" />
       <div className="text-background/70 text-sm font-sans space-y-2">
         <div className="flex flex-col">
-          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">General Inquiries</span>
+          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">United Kingdom</span>
           <a href="mailto:info@crossexports.com" className="hover:text-accent transition-colors">info@crossexports.com</a>
         </div>
         <div className="flex flex-col">

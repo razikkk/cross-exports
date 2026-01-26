@@ -36,7 +36,7 @@ export const products: Product[] = [
       "Potting mix blending"
     ],
     packagingInfo: "Prepared for consistent performance and scalable supply, making it ideal for repeat orders across the UK, Europe, and global markets.",
-    images:[ "product-coco-peat.jpg","pro-1.avif","pro-1-3.webp"]
+    images:[ "product-coco-peat.jpg","coco-1.jpeg","coco-2.jpeg"]
   },
   {
     id: "coir-grow-bags",
@@ -56,7 +56,7 @@ export const products: Product[] = [
       "Nursery production • Professional horticulture"
     ],
     packagingInfo: "Supplied with export-ready handling and packaging. Custom size and coir composition supported based on requirements.",
-    images: ["coir-grow-bag.webp","pro-2-1.jpg","pro-2-2.jpg"]
+    images: ["coir-grow-bag.webp","pro-2-1.jpg","grow.jpeg"]
   },
   {
     id: "coir-fibre",
@@ -76,7 +76,7 @@ export const products: Product[] = [
       "Industrial use (on enquiry)"
     ],
     packagingInfo: "Reliable sourcing and consistent supply with export-ready packing.",
-    images: ["pro-3-1.jpeg","pro-3-2.webp","pro-3-3.jpg"]
+    images: ["pro-3-1.jpeg","pro-3-2.webp","fibre.jpeg"]
   },
   {
     id: "spices",
@@ -114,6 +114,6 @@ export const products: Product[] = [
       "Papad manufacturing"
     ],
     packagingInfo: "Export packaging available in custom quantities for international trade.",
-    images: ["urad-dal.jpg","pro-5-1.jpeg","pro-5-2.webp"]
+    images: ["urad-dal.jpg","pro-5-1.jpeg","urad.webp"]
   }
 ];
