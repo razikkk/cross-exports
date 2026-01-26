@@ -24,6 +24,8 @@ export const blogs: Blog[] = [
       </br>
       <p>For importers and distributors, coco peat is attractive because it can be supplied in multiple formats such as 5kg blocks and 650g bricks, which helps match wholesale and retail demand. Buyers typically focus on key fundamentals: consistent quality, stable supply planning, export-ready packaging, and professional coordination. At Cross Exports, we supply coco peat in export-friendly formats and focus on serving global buyers with transparent communication.</p>
       </br>
+      <p>At Cross Exports, we supply coco peat (coco pith) in export-friendly formats and focus on serving global buyers with transparent communication and bulk export support. For enquiries, contact: info@crossexports.com.</p>
+      </br>
       <p><em>Sources: UNEP Global Peatlands Assessment | IMARC Coco Coir Market</em></p>
     `,
     author: "Cross Exports Team",
@@ -49,6 +51,8 @@ export const blogs: Blog[] = [
       </br>
       <p> According to IMARC, the global coco coir market was valued at USD 393.75 million in 2024 and is projected to reach USD 628.55 million by 2033, with 5.07% CAGR. This steady growth supports both 5kg and 650g formats across different markets and buyer categories.
       </p>
+      </br>
+      <p>If you are planning your next import program, the best approach is to match formats to your customers, storage capacity, and distribution channel. Cross Exports can support bulk export supply in trade-friendly formats with professional coordination and export-ready packing options. Contact info@crossexports.com.</p>
       </br>
       <p><em>Sources: IMARC Coco Coir Market</em></p>
     `,
@@ -76,6 +80,9 @@ export const blogs: Blog[] = [
       </p>
       </br>
       <p>For importers, sustainability messaging must remain factual and credible. Rather than claiming “100% organic” or using unsupported environmental statements, premium B2B brands build trust by focusing on what matters most: stable quality, professional packing, transparency, and strong buyer communication. Sustainable positioning becomes more powerful when it is backed by consistent supply standards and clear documentation.
+      </p>
+      </br>
+      <p>Cross Exports supports global buyers sourcing coco peat and other coir products with a professional export mindset. For bulk enquiries and product formats such as 5kg blocks and 650g bricks, email info@crossexports.com.
       </p>
       </br>
       <p><em>Sources: UNEP Global Peatlands Assessment | IMARC Coco Coir Market</em></p>
@@ -109,6 +116,9 @@ export const blogs: Blog[] = [
       <p>For B2B buyers, the best approach is to build sourcing strategies that reduce risk: confirm specifications early, standardise packing formats, and secure repeat supply schedules where possible. This is how global distributors maintain stable inventory and protect margins during price changes.
       </p>
       </br>
+      <p>Cross Exports supports global buyers with export-ready coir product supply programs. For enquiries, email info@crossexports.com.
+      </p>
+      </br>
       <p><em>Sources: Coconut Community Market Review | IMARC Coco Coir Market</em></p>
     `,
     author: "Market Researcher",
@@ -133,6 +143,9 @@ export const blogs: Blog[] = [
       <p>Market outlook also supports the increase in demand. IMARC estimates the global coco coir market at USD 393.75 million in 2024, expected to reach USD 628.55 million by 2033 with 5.07% CAGR. This suggests continued growth in international coir trade, supported by horticulture expansion and sustainability priorities.</p>
       </br>
       <p>For B2B buyers, the most important factors remain consistent: quality stability, clear specifications, reliable packing, and supplier communication. Hydroponic and greenhouse operators typically require suppliers who can support repeat supply with predictable product characteristics. For importers, the supplier’s ability to manage export logistics and documentation coordination becomes equally important.
+      </p>
+      </br>
+      <p>Cross Exports supplies export-grade coco peat and coir products for global B2B buyers. Contact info@crossexports.com for pricing and bulk supply enquiries.
       </p>
       </br>
       <p><em>Sources: UNEP peatlands data | IMARC market size & CAGR</em></p>
@@ -162,6 +175,9 @@ export const blogs: Blog[] = [
       </br>
       <p>In global B2B trade, premium performance is defined by consistency and trust. Buyers typically focus on the export formats that match their channel strategy—commonly 5kg compressed blocks and 650g bricks. The 5kg format is suitable for bulk and professional customers such as substrate blenders and commercial farms, while 650g bricks are ideal for retail-friendly distribution and smaller growers. High-quality exporters also support buyers with documentation coordination, packing options, and reliable communication to reduce delays.</p>
       </br>
+      <p>At Cross Exports, we focus on supplying export-ready coco peat formats and coir products for global buyers who value professional trade support and long-term reliability. For bulk enquiries, contact: info@crossexports.com
+      </p>
+      </br>
       <p><em>Sources: UNEP Global Peatlands Assessment | IMARC Coco Coir Market</em></p>
     `,
     author: "Trade Director",
@@ -187,6 +203,9 @@ export const blogs: Blog[] = [
       <p>Coco peat benefits from these shifts because it is widely used in professional horticulture for moisture retention and structured growing conditions. As input costs fluctuate and growing systems modernise, buyers tend to choose stable, predictable substrates from reliable exporters rather than switching frequently between suppliers. In global markets, “premium supply” often means the exporter can maintain consistent batch quality, packing standards, and delivery coordination—not just offer competitive pricing.</p>
       </br>
       <p>For importers and distributors, the best strategy is to reduce exposure to volatility by aligning requirements early. This includes choosing consistent product formats (5kg blocks, 650g bricks), confirming packing and shipment readiness, and maintaining repeat supply schedules. When price movements occur, stable supplier relationships often provide better continuity and coordination.</p>
+      </br>
+      <p>Cross Exports works with global B2B buyers who want dependable coir product supply and export-ready coordination. For sourcing enquiries, email: info@crossexports.com
+      </p>
       </br>
       <p><em>Sources: Coconut Community market review | FAO Fertilizer Market Update</em></p>
     `,
@@ -218,6 +237,8 @@ export const blogs: Blog[] = [
       <p>For Cross Exports and similar suppliers, international brand strength comes from clean communication. Sustainability language should be linked to buyer outcomes: stable supply programs, performance consistency, and peat-alternative relevance—rather than slogans. When buyers see professionalism in product details, packaging discipline, and export coordination, they trust the supplier even more.
       </p>
       </br>
+      <p>Cross Exports supports global buyers sourcing export-ready coco peat and coir products with reliable communication and consistent trade supply formats. Contact: info@crossexports.com</p>
+      </br>
       <p><em>Sources: UNEP Global Peatlands Assessment | IMARC Coco Coir Market</em></p>
     `,
     author: "Branding Consultant",
@@ -245,6 +266,9 @@ export const blogs: Blog[] = [
       </br>
       <p>Finally, professional buyers should look for suppliers who support consistent repeat ordering and coordination. Export trade is not only about product—it is about reliability. Strong exporters provide timely documentation, respond clearly to specification questions, and support buyers with shipment updates. This is what builds long-term partnerships in B2B trade</p>
       </br>
+      <p>At Cross Exports, we work with global buyers who need export-ready coco peat formats and professional coordination. For enquiries, email: info@crossexports.com
+      </p>
+      </br>
       <p><em>Source: IMARC Coco Coir Market (2024–2033)</em></p>
     `,
     author: "Procurement Manager",
@@ -271,6 +295,9 @@ export const blogs: Blog[] = [
       <p>Alongside this, global agricultural input costs and affordability risks influence buyer decision-making. FAO notes that fertiliser production rebounded in 2024–2025 and prices remained below 2022 peaks, but energy costs and policy risks can still affect short-term movements. These kinds of fluctuations influence growers to optimise systems and adopt reliable cultivation inputs.</p>
       </br>
       <p>For global B2B buyers, the future demand for coco peat will likely remain strong in greenhouse cultivation, horticulture trade, landscaping supply, and substrate distribution. The exporters who succeed will be those who deliver professional consistency—stable quality across batches, export-ready packing, and clear shipment coordination—while using sustainability positioning honestly and responsibly.
+      </p>
+      </br>
+      <p>Cross Exports supports global buyers with export supply of coco peat and coir products in trade-friendly formats. For partnerships and enquiries, email: info@crossexports.com
       </p>
       </br>
       <p><em>Sources: UNEP Global Peatlands Assessment | IMARC Coco Coir Market | FAO Fertilizer Market Developments</em></p>
