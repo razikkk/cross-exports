@@ -97,7 +97,7 @@ const About = () => {
                 </div>
 
                 {/* Floating Badge for UK/EU Advantage */}
-                <div className="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl shadow-xl text-primary-foreground hidden md:block border-4 border-background">
+                {/* <div className="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl shadow-xl text-primary-foreground hidden md:block border-4 border-background">
                   <div className="flex items-center gap-4">
                     <Globe className="w-10 h-10 opacity-90" />
                     <div>
@@ -105,7 +105,7 @@ const About = () => {
                       <span className="text-xs uppercase tracking-widest opacity-80">Local Coordination</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* Quick Features List */}

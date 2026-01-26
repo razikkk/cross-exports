@@ -11,29 +11,17 @@ const Footer = () => {
       <div className="container-custom section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
-          <div className="relative flex flex-col items-start">
-  {/* Link and Logo Container */}
-  <Link 
-    to="/" 
-    className="relative z-20 inline-block -mt-24 -mb-12 transition-transform hover:scale-105"
-  >
-    <span className="font-serif">
-      <img 
-        src="cross.png" 
-        alt="Cross Exports Logo" 
-        className="h-50 w-auto object-contain" 
-      />
-    </span>
-  </Link>
-
-  {/* Text Content */}
-  <div className="relative z-10 pl-4"> 
-    <p className="text-background/70 font-sans text-sm leading-relaxed max-w-[250px]">
-      India-based exporter of premium coir products and selected agro products. 
-      Delivering quality from India to the world.
-    </p>
-  </div>
-</div>
+          <div className="space-y-4">
+            <Link to="/" className="inline-block">
+              <span className="font-serif text-2xl font-semibold">
+                Cross<span className="text-accent">Exports</span>
+              </span>
+            </Link>
+            <p className="text-background/70 font-sans text-sm leading-relaxed">
+              India-based exporter of premium coir products and selected agro products. 
+              Delivering quality from India to the world.
+            </p>
+          </div>
 
           {/* Quick Links */}
           <div>
@@ -85,7 +73,6 @@ const Footer = () => {
          {/* Contact */}
 <div>
   <h4 className="font-serif text-lg font-medium mb-4">Contact Us</h4>
-  <ul className="space-y-6">
     {/* Address Section */}
     {/* <li className="flex items-start gap-3">
       <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
@@ -102,35 +89,53 @@ const Footer = () => {
     </li> */}
 
     {/* Phone Section */}
-    <li className="flex items-start gap-3">
-      <Phone size={18} className="text-accent mt-1 flex-shrink-0" />
-      <div className="text-background/70 text-sm font-sans space-y-2">
-        <div className="flex flex-col">
-          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">India</span>
-          <a href="tel:+919645324382" className="hover:text-accent transition-colors">+91 9645324382</a>
+    <ul className="space-y-6">
+  {/* India Section */}
+  <li className="space-y-3">
+    <div className="flex flex-col">
+      <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold mb-1">India</span>
+      <div className="space-y-2">
+        {/* India Phone */}
+        <div className="flex items-center gap-3">
+          <Phone size={16} className="text-accent flex-shrink-0" />
+          <a href="tel:+919645324382" className="text-background/70 text-sm font-sans hover:text-accent transition-colors">
+            +91 96453 24382
+          </a>
         </div>
-        <div className="flex flex-col">
-          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">United Kingdom</span>
-          <a href="tel:+447733644159" className="hover:text-accent transition-colors">+44 7733644159</a>
+        {/* India Email */}
+        <div className="flex items-center gap-3">
+          <Mail size={16} className="text-accent flex-shrink-0" />
+          <a href="mailto:info@crossexports.com" className="text-background/70 text-sm font-sans hover:text-accent transition-colors">
+            info@crossexports.com
+          </a>
         </div>
       </div>
-    </li>
+    </div>
+  </li>
 
     {/* Email Section */}
-    <li className="flex items-start gap-3">
-      <Mail size={18} className="text-accent mt-1 flex-shrink-0" />
-      <div className="text-background/70 text-sm font-sans space-y-2">
-        <div className="flex flex-col">
-          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">United Kingdom</span>
-          <a href="mailto:info@crossexports.com" className="hover:text-accent transition-colors">info@crossexports.com</a>
+    <li className="space-y-3">
+    <div className="flex flex-col">
+      <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold mb-1">United Kingdom</span>
+      <div className="space-y-2">
+        {/* UK Phone */}
+        <div className="flex items-center gap-3">
+          <Phone size={16} className="text-accent flex-shrink-0" />
+          <a href="tel:+447733644159" className="text-background/70 text-sm font-sans hover:text-accent transition-colors">
+            +44 7733 644159
+          </a>
         </div>
-        <div className="flex flex-col">
-          <span className="text-[10px] uppercase tracking-wider text-background/40 font-bold">UK Sales</span>
-          <a href="mailto:sales@crossexports.com" className="hover:text-accent transition-colors">sales@crossexports.com</a>
+        {/* UK Email */}
+        <div className="flex items-center gap-3">
+          <Mail size={16} className="text-accent flex-shrink-0" />
+          <a href="mailto:sales@crossexports.com" className="text-background/70 text-sm font-sans hover:text-accent transition-colors">
+            sales@crossexports.com
+          </a>
         </div>
       </div>
-    </li>
-  </ul>
+    </div>
+  </li>
+</ul>
 
   {/* Social Links */}
   <div className="mt-8 flex items-center gap-4">
