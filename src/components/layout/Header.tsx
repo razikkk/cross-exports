@@ -24,7 +24,7 @@ const Header = () => {
           {/* LEFT: Logo */}
           <Link
   to="/"
-  className="flex items-center flex-shrink-0"
+  className="flex items-center flex-shrink-0 relative z-[60]" // Ensure it's not expanding too wide
 >
   <img
     src="/cross.png"
@@ -33,11 +33,8 @@ const Header = () => {
       h-[270px] w-[270px]
       md:h-[360px] md:w-[360px]
       object-contain
-
-      /* MOBILE position */
+      pointer-events-none /* This prevents the huge image box from blocking clicks */
       -ml-4 -mt-6
-
-      /* DESKTOP position */
       md:-mt-10 md:ml-0
     "
   />

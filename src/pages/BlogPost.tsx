@@ -25,8 +25,20 @@ const BlogPost = () => {
             onClick={() => navigate("/blog")}
             // className="inline-flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 hover:gap-3 transition-all cursor-pointer"
           > */}
-            <ArrowLeft onClick={()=> navigate('/blog')} size={22} className="inline-flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 hover:gap-3 transition-all cursor-pointer" />
-          
+      <button 
+  type="button"
+  onClick={(e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    navigate("/blog");
+  }} 
+  className="relative z-[100] group flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 cursor-pointer"
+>
+  <ArrowLeft size={20} className="transition-transform group-hover:-translate-x-1" />
+  <span className="group-hover:underline decoration-2 underline-offset-4">
+    Back to Blog
+  </span>
+</button>
           {/* </button> */}
 
           <div className="max-w-3xl">

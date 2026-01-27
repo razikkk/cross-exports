@@ -36,7 +36,7 @@ export const products: Product[] = [
       "Potting mix blending"
     ],
     packagingInfo: "Prepared for consistent performance and scalable supply, making it ideal for repeat orders across the UK, Europe, and global markets.",
-    images:[ "product-coco-peat.jpg","coco-1.jpeg","coco-2.jpeg"]
+    images:["coco-1.jpeg","coco-2.jpeg"]
   },
   {
     id: "coir-grow-bags",
