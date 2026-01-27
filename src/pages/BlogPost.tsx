@@ -1,10 +1,11 @@
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, useNavigate, Navigate, Link } from "react-router-dom"; // Added useNavigate
 import Layout from "@/components/layout/Layout";
 import { blogs } from "@/data/blogs";
 import { ArrowLeft, Clock, User, Calendar } from "lucide-react";
 
 const BlogPost = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate(); // Initialize navigate
   const blog = blogs.find((b) => b.id === id);
 
   if (!blog) {
@@ -18,13 +19,15 @@ const BlogPost = () => {
       {/* Header */}
       <section className="bg-muted section-padding">
         <div className="container-custom">
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 hover:gap-3 transition-all"
-          >
-            <ArrowLeft size={16} />
-            Back to Blog
-          </Link>
+          
+          {/* REPLACED LINK WITH BUTTON NAVIGATION */}
+          {/* <button
+            onClick={() => navigate("/blog")}
+            // className="inline-flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 hover:gap-3 transition-all cursor-pointer"
+          > */}
+            <ArrowLeft onClick={()=> navigate('/blog')} size={22} className="inline-flex items-center gap-2 text-primary font-sans text-sm font-medium mb-8 hover:gap-3 transition-all cursor-pointer" />
+          
+          {/* </button> */}
 
           <div className="max-w-3xl">
             <span className="text-primary font-sans text-sm font-medium tracking-wider uppercase">
@@ -59,22 +62,21 @@ const BlogPost = () => {
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Main Content */}
             <article className="lg:col-span-2">
-              {/* Featured Image */}
-              {/* Featured Image */}
-<div className="aspect-video rounded-lg overflow-hidden bg-muted mb-10">
-  <img
-    src={blog.image} // Simply use the path from your data
-    alt={blog.title}
-    className="w-full h-full object-cover"
-  />
-</div>
+              <div className="aspect-video rounded-lg overflow-hidden bg-muted mb-10">
+                <img
+                  src={blog.image}
+                  alt={blog.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-              {/* Article Content */}
+              {/* ARTICLE CONTENT WITH PARAGRAPH SPACING */}
               <div
                 className="prose prose-lg max-w-none 
                   prose-headings:font-serif prose-headings:text-foreground 
                   prose-p:text-muted-foreground prose-p:font-sans prose-p:leading-relaxed
-                  prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+                  prose-p:mt-0 prose-p:mb-8 last:prose-p:mb-0
+                  prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6
                   prose-a:text-primary prose-a:no-underline hover:prose-a:underline"
                 dangerouslySetInnerHTML={{ __html: blog.content }}
               />
