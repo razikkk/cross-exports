@@ -139,7 +139,7 @@ const Footer = () => {
 
   {/* Social Links */}
   <div className="mt-8 flex items-center gap-4">
-    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
+    {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
       <Facebook size={16} />
     </a>
     <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
@@ -147,8 +147,8 @@ const Footer = () => {
     </a>
     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
       <Instagram size={16} />
-    </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
+    </a> */}
+    <a href="https://www.linkedin.com/company/crossexports/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center text-background/60 hover:text-accent hover:border-accent transition-all">
       <Linkedin size={16} />
     </a>
   </div>
